@@ -1,0 +1,4 @@
+Part1: Unified L1 cache
+system.cpu.l1cache.overallHits::total        11810614                       # number of overall hits (Count)
+system.cpu.l1cache.overallMisses::total          3490                       # number of overall misses (Count)
+system.cpu.l1cache.overallAvgMissLatency::total 89913.753582                       # average overall miss latency ((Tick/Count))

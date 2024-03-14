@@ -1,0 +1,83 @@
+Part3: Varying associativity
+Unified L1 cache
+ 
+-----Associativity=1--------
+system.cpu.l1cache.overallHits::total        11798358                       # number of overall hits (Count)
+system.cpu.l1cache.overallMisses::total         15746                       # number of overall misses (Count)
+system.cpu.l1cache.overallAvgMissLatency::total 72883.525975                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=2--------
+system.cpu.l1cache.overallHits::total        11810614                       # number of overall hits (Count)
+system.cpu.l1cache.overallMisses::total          3490                       # number of overall misses (Count)
+system.cpu.l1cache.overallAvgMissLatency::total 89913.753582                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=4--------
+system.cpu.l1cache.overallHits::total        11810632                       # number of overall hits (Count)
+system.cpu.l1cache.overallMisses::total          3472                       # number of overall misses (Count)
+system.cpu.l1cache.overallAvgMissLatency::total 89985.311060                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=8--------
+system.cpu.l1cache.overallHits::total        11810634                       # number of overall hits (Count)
+system.cpu.l1cache.overallMisses::total          3470                       # number of overall misses (Count)
+system.cpu.l1cache.overallAvgMissLatency::total 90031.988473                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=16--------
+system.cpu.l1cache.overallHits::total        11810636                       # number of overall hits (Count)
+system.cpu.l1cache.overallMisses::total          3468                       # number of overall misses (Count)
+system.cpu.l1cache.overallAvgMissLatency::total 90078.719723                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=32--------
+system.cpu.l1cache.overallHits::total        11810638                       # number of overall hits (Count)
+system.cpu.l1cache.overallMisses::total          3466                       # number of overall misses (Count)
+system.cpu.l1cache.overallAvgMissLatency::total 90125.504905                       # average overall miss latency ((Tick/Count))
+
+
+L1 data and instruction caches
+ 
+-----Associativity=1--------
+system.cpu.dcache.overallHits::total          3312926                       # number of overall hits (Count)
+system.cpu.dcache.overallMisses::total           2341                       # number of overall misses (Count)
+system.cpu.dcache.overallAvgMissLatency::total 80052.541649                       # average overall miss latency ((Tick/Count))
+system.cpu.icache.overallHits::total          8497648                       # number of overall hits (Count)
+system.cpu.icache.overallMisses::total           1189                       # number of overall misses (Count)
+system.cpu.icache.overallAvgMissLatency::total 75756.097561                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=2--------
+system.cpu.dcache.overallHits::total          3312982                       # number of overall hits (Count)
+system.cpu.dcache.overallMisses::total           2285                       # number of overall misses (Count)
+system.cpu.dcache.overallAvgMissLatency::total 79097.592998                       # average overall miss latency ((Tick/Count))
+system.cpu.icache.overallHits::total          8497655                       # number of overall hits (Count)
+system.cpu.icache.overallMisses::total           1182                       # number of overall misses (Count)
+system.cpu.icache.overallAvgMissLatency::total 76206.429780                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=4--------
+system.cpu.dcache.overallHits::total          3312983                       # number of overall hits (Count)
+system.cpu.dcache.overallMisses::total           2284                       # number of overall misses (Count)
+system.cpu.dcache.overallAvgMissLatency::total 79131.786340                       # average overall miss latency ((Tick/Count))
+system.cpu.icache.overallHits::total          8497655                       # number of overall hits (Count)
+system.cpu.icache.overallMisses::total           1182                       # number of overall misses (Count)
+system.cpu.icache.overallAvgMissLatency::total 76206.429780                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=8--------
+system.cpu.dcache.overallHits::total          3312983                       # number of overall hits (Count)
+system.cpu.dcache.overallMisses::total           2284                       # number of overall misses (Count)
+system.cpu.dcache.overallAvgMissLatency::total 79131.786340                       # average overall miss latency ((Tick/Count))
+system.cpu.icache.overallHits::total          8497655                       # number of overall hits (Count)
+system.cpu.icache.overallMisses::total           1182                       # number of overall misses (Count)
+system.cpu.icache.overallAvgMissLatency::total 76206.429780                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=16--------
+system.cpu.dcache.overallHits::total          3312983                       # number of overall hits (Count)
+system.cpu.dcache.overallMisses::total           2284                       # number of overall misses (Count)
+system.cpu.dcache.overallAvgMissLatency::total 79131.786340                       # average overall miss latency ((Tick/Count))
+system.cpu.icache.overallHits::total          8497655                       # number of overall hits (Count)
+system.cpu.icache.overallMisses::total           1182                       # number of overall misses (Count)
+system.cpu.icache.overallAvgMissLatency::total 76206.429780                       # average overall miss latency ((Tick/Count))
+ 
+-----Associativity=32--------
+system.cpu.dcache.overallHits::total          3312983                       # number of overall hits (Count)
+system.cpu.dcache.overallMisses::total           2284                       # number of overall misses (Count)
+system.cpu.dcache.overallAvgMissLatency::total 79131.786340                       # average overall miss latency ((Tick/Count))
+system.cpu.icache.overallHits::total          8497655                       # number of overall hits (Count)
+system.cpu.icache.overallMisses::total           1182                       # number of overall misses (Count)
+system.cpu.icache.overallAvgMissLatency::total 76206.429780                       # average overall miss latency ((Tick/Count))

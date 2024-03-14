@@ -1,0 +1,7 @@
+Part2: L1 data and instruction caches
+system.cpu.dcache.overallHits::total          3312982                       # number of overall hits (Count)
+system.cpu.dcache.overallMisses::total           2285                       # number of overall misses (Count)
+system.cpu.dcache.overallAvgMissLatency::total 79097.592998                       # average overall miss latency ((Tick/Count))
+system.cpu.icache.overallHits::total          8497655                       # number of overall hits (Count)
+system.cpu.icache.overallMisses::total           1182                       # number of overall misses (Count)
+system.cpu.icache.overallAvgMissLatency::total 76206.429780                       # average overall miss latency ((Tick/Count))

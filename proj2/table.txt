@@ -1,0 +1,60 @@
+Part 1:
+           Cache     Hits  Misses  AvgMissLatency  Hit_Percentage
+Unified L1 cache 11810614    3490       89,913.75           99.97
+
+Part 2:
+                         Cache  Dcache_Hits  Dcache_Misses  Dcache_AvgMissLatency  Icache_Hits  Icache_Misses  Icache_AvgMissLatency  Dcache_Hit_Percentage  Icache_Hit_Percentage
+L1 data and instruction caches      3312982           2285              79,097.59      8497655           1182              76,206.43                  99.93                  99.99
+
+Part 3:
+                                            Cache     Hits  Misses  AvgMissLatency  Hit_Percentage
+               Unified L1 cache (Associativity=1) 11810614    3490       89,913.75           99.97
+               Unified L1 cache (Associativity=2) 11810614    3490       89,913.75           99.97
+               Unified L1 cache (Associativity=4) 11810632    3472       89,985.31           99.97
+               Unified L1 cache (Associativity=8) 11810634    3470       90,031.99           99.97
+              Unified L1 cache (Associativity=16) 11810636    3468       90,078.72           99.97
+              Unified L1 cache (Associativity=32) 11810638    3466       90,125.50           99.97
+          L1 instruction caches (Associativity=1)  8497648    1189       75,756.09           99.93
+          L1 instruction caches (Associativity=2)  8497655    1182       76,206.42           99.93
+          L1 instruction caches (Associativity=4)  8497655    1182       76,206.42           99.93
+          L1 instruction caches (Associativity=8)  8497655    1182       76,206.42           99.93
+         L1 instruction caches (Associativity=16)  8497655    1182       76,206.42           99.93
+         L1 instruction caches (Associativity=32)  8497655    1182       76,206.42           99.93
+                 L1 data caches (Associativity=1)  3312926    2341       80,052.54           99.93
+                 L1 data caches (Associativity=2)  3312982    2285       79,097.59           99.93
+                 L1 data caches (Associativity=4)  3312983    2284       79,131.79           99.93
+                 L1 data caches (Associativity=8)  3312983    2284       79,131.79           99.93
+                L1 data caches (Associativity=16)  3312983    2284       79,131.79           99.93
+                L1 data caches (Associativity=32)  3312983    2284       79,131.79           99.93
+
+
+Part 4:
+                                             Cache  Dcache_Hits  Dcache_Misses  Dcache_AvgMissLatency  Icache_Hits  Icache_Misses  Icache_AvgMissLatency  L2cache_Hits  L2cache_Misses  L2cache_AvgMissLatency  Dcache_Hit_Percentage  Icache_Hit_Percentage  L2cache_Hit_Percentage
+ Size=(l1i_size=64kB, l1d_size=128kB, l2_size=2MB)      3312982           2285              79,097.59      8497655           1182              76,206.43           299            3468              169,391.58                  99.93                  99.99                    7.94
+ Size=(l1i_size=64kB, l1d_size=128kB, l2_size=4MB)      3312982           2285              79,097.59      8497655           1182              76,206.43           299            3468              169,391.58                  99.93                  99.99                    7.94
+ Size=(l1i_size=64kB, l1d_size=256kB, l2_size=2MB)      3312982           2285              79,131.79      8497655           1182              76,206.43           299            3468              169,391.58                  99.93                  99.99                    7.94
+ Size=(l1i_size=64kB, l1d_size=256kB, l2_size=4MB)      3312982           2285              79,131.79      8497655           1182              76,206.43           164            3468              169,227.80                  99.93                  99.99                    4.52
+Size=(l1i_size=128kB, l1d_size=128kB, l2_size=2MB)      3312982           2285              79,097.59      8497653           1184              76,206.43           164            3468              169,227.80                  99.93                  99.99                    4.52
+Size=(l1i_size=128kB, l1d_size=128kB, l2_size=4MB)      3312982           2285              79,097.59      8497653           1184              76,206.43           164            3468              169,227.80                  99.93                  99.99                    4.52
+Size=(l1i_size=128kB, l1d_size=256kB, l2_size=2MB)      3312982           2285              79,131.79      8497655           1182              76,206.43            76            3468              169,389.85                  99.93                  99.99                    2.14
+Size=(l1i_size=128kB, l1d_size=256kB, l2_size=4MB)      3312982           2285              79,131.79      8497655           1182              76,206.43            76            3468              169,389.85                  99.93                  99.99                    2.14
+Size=(l1i_size=256kB, l1d_size=128kB, l2_size=2MB)      3312982           2285              79,097.59      8497655           1182              76,206.43            76            3468              169,389.85                  99.93                  99.99                    2.14
+Size=(l1i_size=256kB, l1d_size=128kB, l2_size=4MB)      3312982           2285              79,097.59      8497655           1182              76,206.43           252            3468              169,488.75                  99.93                  99.99                    6.77
+Size=(l1i_size=256kB, l1d_size=256kB, l2_size=2MB)      3312982           2285              79,131.79      8497653           1184              76,206.43           252            3468              169,488.75                  99.93                  99.99                    6.77
+Size=(l1i_size=256kB, l1d_size=256kB, l2_size=4MB)      3312982           2285              79,131.79      8497653           1184              76,206.43           252            3468              169,488.75                  99.93                  99.99                    6.77
+  Size=(l1i_size=64kB, l1d_size=64kB, l2_size=2MB)      3312982           2285              79,097.59      8497655           1182              76,206.43           117            3468              169,313.44                  99.93                  99.99                    3.26
+  Size=(l1i_size=64kB, l1d_size=64kB, l2_size=4MB)      3312982           2285              79,097.59      8497655           1182              76,206.43           117            3468              169,313.44                  99.93                  99.99                    3.26
+  Size=(l1i_size=64kB, l1d_size=32kB, l2_size=2MB)      3312982           2285              79,131.79      8497653           1184              76,206.43           117            3468              169,313.44                  99.93                  99.99                    3.26
+  Size=(l1i_size=64kB, l1d_size=32kB, l2_size=4MB)      3312982           2285              79,131.79      8497653           1184              76,206.43            29            3468              169,628.60                  99.93                  99.99                    0.83
+  Size=(l1i_size=32kB, l1d_size=64kB, l2_size=2MB)      3312982           2285              79,097.59      8497655           1182              76,206.43            29            3468              169,628.60                  99.93                  99.99                    0.83
+  Size=(l1i_size=32kB, l1d_size=64kB, l2_size=4MB)      3312982           2285              79,097.59      8497655           1182              76,206.43            29            3468              169,628.60                  99.93                  99.99                    0.83
+  Size=(l1i_size=32kB, l1d_size=32kB, l2_size=2MB)      3312982           2285              79,131.79      8497653           1184              76,206.43           226            3468              169,666.67                  99.93                  99.99                    6.12
+  Size=(l1i_size=32kB, l1d_size=32kB, l2_size=4MB)      3312982           2285              79,131.79      8497653           1184              76,206.43           226            3468              169,666.67                  99.93                  99.99                    6.12
+ Size=(l1i_size=128kB, l1d_size=64kB, l2_size=2MB)      3312982           2285              79,097.59      8497655           1182              76,206.43           226            3468              169,666.67                  99.93                  99.99                    6.12
+ Size=(l1i_size=128kB, l1d_size=64kB, l2_size=4MB)      3312982           2285              79,097.59      8497655           1182              76,206.43            91            3468              169,117.94                  99.93                  99.99                    2.56
+ Size=(l1i_size=128kB, l1d_size=32kB, l2_size=2MB)      3312982           2285              79,131.79      8497653           1184              76,206.43            91            3468              169,117.94                  99.93                  99.99                    2.56
+ Size=(l1i_size=128kB, l1d_size=32kB, l2_size=4MB)      3312982           2285              79,131.79      8497653           1184              76,206.43            91            3468              169,117.94                  99.93                  99.99                    2.56
+ Size=(l1i_size=256kB, l1d_size=64kB, l2_size=2MB)      3312982           2285              79,097.59      8497655           1182              76,206.43             3            3468              169,158.59                  99.93                  99.99                    0.09
+ Size=(l1i_size=256kB, l1d_size=64kB, l2_size=4MB)      3312982           2285              79,097.59      8497655           1182              76,206.43             3            3468              169,158.59                  99.93                  99.99                    0.09
+ Size=(l1i_size=256kB, l1d_size=32kB, l2_size=2MB)      3312982           2285              79,131.79      8497653           1184              76,206.43             3            3468              169,158.59                  99.93                  99.99                    0.09
+ Size=(l1i_size=256kB, l1d_size=32kB, l2_size=4MB)      3312982           2285              79,131.79      8497653           1184              76,206.43             3            3468              169,158.59                  99.93                  99.99                    0.09
